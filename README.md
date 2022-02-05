@@ -1,25 +1,24 @@
 # Data pipeline
 
 Docker pipeline that collects tweets and stores them in MongoDB, afterwards the sentiment of the tweets is analyzed and the results are stored in PostgreSQL
-
-
-
-
+<br />
+<br />
+<br />
 ## What you need in addition to run the pipeline:
 * Postgres password
 * Twitter API credentials  
   **&rarr;** save your twitter credentials in a 'credentials.py' file inside the 'tweet_collector' folder
-  
-  
-
+<br />
+<br />
+<br />
 ## How to run the pipeline:
 * Run the commands  
   `docker-compose build` which builds all container images  
   and   
   `docker-compose up` which starts the pipeline
-  
-  
-  
+<br />
+<br />
+<br />
 ## While the pipeline is running:
 
 ### Access to MongoDB:
