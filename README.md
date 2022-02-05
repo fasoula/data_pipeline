@@ -14,9 +14,9 @@ Docker pipeline that collects tweets and stores them in MongoDB, afterwards the 
 
 ## How to run the pipeline:
 * Run the commands  
-  ''' docker-compose build''' which builds all container images  
+  ´docker-compose build' which builds all container images  
   and   
-  '''docker-compose up''' which starts the pipeline
+  ´docker-compose up which starts the pipeline
   
   
   
@@ -24,11 +24,11 @@ Docker pipeline that collects tweets and stores them in MongoDB, afterwards the 
 
 ### Access to MongoDB:
   - open a new terminal window and use the following command to access the database on MongoDB:   
-    '''docker-compose exec mongodb mongo'''  
+    ´docker-compose exec mongodb mongo  
   - Then, in order to see your stored tweets type in the MongoDB shell:  
-    '''use twitter'''  
+    use twitter  
     and   
-    '''db.tweets.find()'''
+    ´db.tweets.find()
     
 ### Access to PostgreSQL:
 
