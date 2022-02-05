@@ -7,7 +7,7 @@ Docker pipeline that collects tweets and stores them in MongoDB, afterwards the 
 ## What you need in addition to run the pipeline:
 * Postgres password
 * Twitter API credentials  
-  save your twitter credentials in a 'credentials.py' file inside the 'tweet_collector' folder
+  **&rarr;** save your twitter credentials in a 'credentials.py' file inside the 'tweet_collector' folder
 <br />
 <br />
 <br />
