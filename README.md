@@ -3,7 +3,6 @@
 Docker pipeline that collects tweets and stores them in MongoDB. Afterwards the sentiment of the tweets is analyzed and the results are stored in PostgreSQL. The Postgres database can then be connected to Metabase in order to generate visualizations and dashboards.  
 In this repository you will find also in the folder 'visualization_of_sentiments_python' how to extract the tweets and save them in a csv file as well as a brief visualization in Python.  
 <br />
-<br />
 ## What you need in addition to run the pipeline:
 * Postgres password
 * Twitter API credentials  
