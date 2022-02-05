@@ -12,10 +12,8 @@ Docker pipeline that collects tweets and stores them in MongoDB, afterwards the 
 * Run the commands  
   `docker-compose build` which builds all container images  
   and   
-  `docker-compose up` which starts the pipeline
-<br />
-<br />
-<br />
+  `docker-compose up` which starts the pipeline  
+
 ## While the pipeline is running:
 
 ### Access to MongoDB:
